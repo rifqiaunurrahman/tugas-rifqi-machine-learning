@@ -1,0 +1,24 @@
+Output tersebut adalah hasil dari evaluasi performa suatu model klasifikasi biner. Mari kita jabarkan masing-masing metrik yang terdapat dalam laporan tersebut:
+
+Akurasi (Accuracy):
+
+Akurasi model ini adalah 1.00 atau 100%. Ini berarti dari total 2000 sampel data yang dievaluasi, model ini secara tepat mengklasifikasikan semua sampel dengan benar. Akurasi merupakan rasio dari jumlah prediksi yang benar (baik positif maupun negatif) terhadap jumlah total data.
+Precision:
+
+Precision mengukur seberapa akurat model dalam memprediksi kelas positif (dalam kasus ini kelas 1). Precision untuk kelas 0 adalah 1.00, yang berarti dari semua prediksi yang model buat untuk kelas 0, semuanya benar.
+Precision untuk kelas 1 adalah 1.00, yang berarti dari semua prediksi yang model buat untuk kelas 1, semuanya benar.
+Recall:
+
+Recall (juga dikenal sebagai sensitivity atau true positive rate) mengukur seberapa baik model dalam menemukan semua instance dari kelas positif (dalam kasus ini kelas 1). Recall untuk kelas 0 adalah 1.00, yang berarti model berhasil menemukan semua instance dari kelas 0 dalam dataset.
+Recall untuk kelas 1 adalah 0.97, yang berarti dari semua instance yang sebenarnya termasuk dalam kelas 1, model berhasil menemukan 97% dari mereka, sementara 3% sisanya tidak terdeteksi (false negative).
+F1-Score:
+
+F1-score adalah rata-rata harmonik dari precision dan recall. F1-score mencakup kedua metrik ini dalam satu angka tunggal yang merepresentasikan performa model. F1-score untuk kelas 0 adalah 1.00, dan untuk kelas 1 adalah 0.98. F1-score yang tinggi menunjukkan bahwa model memiliki precision dan recall yang baik secara seimbang.
+Support:
+
+Support adalah jumlah kemunculan masing-masing kelas dalam data yang dievaluasi. Dalam kasus ini, ada 1939 sampel dari kelas 0 dan 61 sampel dari kelas 1.
+Kesimpulan:
+
+Model ini memiliki performa yang sangat baik dengan akurasi sempurna (1.00).
+Precision, recall, dan F1-score untuk kedua kelas menunjukkan hasil yang sangat baik, dengan nilai yang mendekati atau mencapai 1.00.
+Meskipun recall untuk kelas 1 sedikit lebih rendah (0.97), secara keseluruhan evaluasi menunjukkan bahwa model mampu mengklasifikasikan dengan sangat baik kedua kelas, dengan jumlah false negative yang rendah untuk kelas 1.
